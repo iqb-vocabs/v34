@@ -2,7 +2,6 @@
   "name": "iqb-vocabs_v34",
   "version": "0.1.0",
   "description": "item format vocabularies",
-  "main": "index.js",
   "scripts": {
     "run": "node_modules/@iqb/csv2ttl/src/addidcsv.ts"
   },
@@ -17,7 +16,7 @@
   },
   "homepage": "https://github.com/iqb-vocabs/v34#readme",
   "devDependencies": {
-    "@iqb/csv2ttl": "^0.3.0-beta",
+    "@iqb/csv2ttl": "^0.4.0-beta",
     "@types/node": "^20.6.3",
     "ts-node": "^10.9.1"
   }

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "target": "es5",
+    "outDir": "dist_npm",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "lib": ["es2015", "dom"],
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist_ttl",
+    "dist_npm"
+  ]
+}
