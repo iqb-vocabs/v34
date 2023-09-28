@@ -1,0 +1,74 @@
+{
+  "id": "itemformat",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Vokabulare zur Beschreibung des Itemformates"
+    }
+  ],
+  "csv_delimiter": ";",
+  "base": "https://w3id.org/iqb/v34",
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "vocabularies": [
+    {
+      "id": "en",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Itemformat Englisch Sek I"
+        }
+      ],
+      "description": [
+        {
+          "lang": "de",
+          "value": "Itemformat Englisch Sek I and description modified and long text "
+        }
+      ]
+    },
+    {
+      "id": "3e",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Itemformat 3er Liste"
+        }
+      ],
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "5e",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Itemformat 5er Liste"
+        }
+      ],
+      "description": [
+        {
+          "lang": "de",
+          "value": "Itemformat 5er Liste description"
+        }
+      ]
+    },
+    {
+      "id": "7e",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Itemformat 7er Liste"
+        }
+      ],
+      "description": [
+        {
+          "lang": "de",
+          "value": "Itemformat 7er Liste description"
+        }
+      ]
+    }
+  ]
+}
