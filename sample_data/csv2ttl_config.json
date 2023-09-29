@@ -8,6 +8,7 @@
   ],
   "csv_delimiter": ";",
   "base": "https://w3id.org/iqb/v34",
+  "idPattern": "^[abcdefghprqstuvxyz][2345679][abcdefghprqstuvxyz]$",
   "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "vocabularies": [
     {

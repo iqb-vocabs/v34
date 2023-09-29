@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "item format vocabularies",
   "scripts": {
-    "run": "node_modules/@iqb/csv2ttl/src/addidcsv.ts"
+    "add_ids": "addidcsv sample_data",
+    "make_ttl": "csv2ttl sample_data"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/v34#readme",
   "devDependencies": {
-    "@iqb/csv2ttl": "^0.5.0-beta"
+    "@iqb/csv2ttl": "^0.6.1"
   }
 }
