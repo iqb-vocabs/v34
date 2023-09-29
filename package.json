@@ -1,9 +1,9 @@
 {
   "name": "iqb-vocabs_v34",
   "version": "0.1.0",
-  "description": "item format vocabularies",
+  "description": "Bildungsstandards Deutsch Sek I 2022",
   "scripts": {
-    "run_ids": "addidcsv",
+    "run_id": "addidcsv",
     "run_ttl": "csv2ttl"
   },
   "repository": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/iqb-vocabs/v34.git"
   },
   "author": "IQB",
-  "license": "CC-BY-4.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iqb-vocabs/v34/issues"
   },
