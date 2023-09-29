@@ -1,0 +1,61 @@
+{
+    "id": "2022DeSek1",
+    "title": [
+      {
+        "lang": "de",
+        "value": "Bildungsstandards Deutsch Sek I 2023"
+      }
+    ],
+    "csv_delimiter": ";",
+    "base": "https://w3id.org/iqb/v34",
+    "outDir": "./",
+    "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+    "vocabularies": [
+      {
+        "id": "a1",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Anforderungsbereiche"
+          }
+        ],
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "se",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Kompenzbereiche des Faches Deustch ESA"
+          }
+        ],
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "id": "sm",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Kompenzbereiche des Faches Deustch MSA"
+          }
+        ],
+        "description": [
+          {
+            "lang": "de",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }
+  

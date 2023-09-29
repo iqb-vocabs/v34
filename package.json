@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "item format vocabularies",
   "scripts": {
-    "add_ids": "addidcsv sample_data",
-    "make_ttl": "csv2ttl sample_data"
+    "run_ids": "addidcsv",
+    "run_ttl": "csv2ttl"
   },
   "repository": {
     "type": "git",

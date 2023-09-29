@@ -1,0 +1,31 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v34/a1/#>. 
+@prefix n1: <https://w3id.org/iqb/v34/a1/>. 
+
+n1:z3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich I"@de.
+n1:g5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich II"@de.
+n1:g6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich III"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Deutsch Sek I 2023 - Anforderungsbereiche"@de;
+	skos:hasTopConcept
+		n1:z3p,
+		n1:g5t,
+		n1:g6a.
