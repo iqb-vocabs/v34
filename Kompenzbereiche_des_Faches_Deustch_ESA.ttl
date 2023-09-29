@@ -1363,7 +1363,7 @@ n1:q6y
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Bildungsstandards Deutsch Sek I 2023 - Kompenzbereiche des Faches Deustch ESA"@de;
+	dct:title "Bildungsstandards Deutsch Sek I 2022 - Kompenzbereiche des Faches Deustch ESA"@de;
 	skos:hasTopConcept
 		n1:v6c,
 		n1:g4e,

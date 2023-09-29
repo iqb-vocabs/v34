@@ -24,7 +24,7 @@ n1:g6a
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Bildungsstandards Deutsch Sek I 2023 - Anforderungsbereiche"@de;
+	dct:title "Bildungsstandards Deutsch Sek I 2022 - Anforderungsbereiche"@de;
 	skos:hasTopConcept
 		n1:z3p,
 		n1:g5t,
