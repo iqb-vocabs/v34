@@ -1377,7 +1377,7 @@ n1:b9d
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Bildungsstandards Deutsch Sek I 2022 - Kompetenzbereiche des Faches Deustch MSA"@de;
+	dct:title "Bildungsstandards Deutsch Sek I 2022 - Kompetenzbereiche des Faches Deutsch MSA"@de;
 	skos:hasTopConcept
 		n1:q5x,
 		n1:z4t,
