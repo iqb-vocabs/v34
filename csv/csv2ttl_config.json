@@ -19,6 +19,8 @@
             "value": "Anforderungsbereiche"
           }
         ],
+        "filenameSource": "a1_Anforderungsbereiche.csv",
+        "filenameTarget": "a1_Anforderungsbereiche.ttl",
         "description": [
           {
             "lang": "de",
@@ -34,6 +36,8 @@
             "value": "Kompetenzbereiche des Faches Deutsch ESA"
           }
         ],
+        "filenameSource": "se_Kompetenzbereiche_des_Faches_Deutsch_ESA.csv",
+        "filenameTarget": "se_Kompetenzbereiche_des_Faches_Deutsch_ESA.ttl",
         "description": [
           {
             "lang": "de",
@@ -49,6 +53,8 @@
             "value": "Kompetenzbereiche des Faches Deutsch MSA"
           }
         ],
+        "filenameSource": "sm_Kompetenzbereiche_des_Faches_Deutsch_MSA.csv",
+        "filenameTarget": "sm_Kompetenzbereiche_des_Faches_Deutsch_MSA.ttl",
         "description": [
           {
             "lang": "de",
