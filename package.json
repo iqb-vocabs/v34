@@ -1,6 +1,6 @@
 {
   "name": "iqb-vocabs_v34",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Bildungsstandards Deutsch Sek I 2022",
   "scripts": {
     "run_id": "addidcsv csv",

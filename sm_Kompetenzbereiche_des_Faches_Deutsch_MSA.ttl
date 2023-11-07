@@ -737,7 +737,7 @@ n1:t2d
 	skos:inScheme n0:;
 	skos:notation "3.2.1";
 	skos:broader n1:y7r;
-	skos:prefLabel "ermitteln explizite oder durch Schließen zu gewinnende Textinformationen auf lokaler Ebene und beachten dabei auch sprachliche Mittel zur Sicherung des Textzusammenhangs,"@de.
+	skos:prefLabel "orientieren sich in und zwischen Texten unterschiedlicher Komplexität und verschaffen sich auch mithilfe textueller Lesehilfen (u. a. Überschriften, Zwischenüberschriften, Absätze, Abbildungen, Illustrationen) einen Überblick: überfliegendes, selegierendes, navigierendes Lesen. korrekte Teilkompetenzangabe, MSA und ESA sind in dieser Teilkompetenz identisch"@de.
 n1:y7r
 	 a skos:Concept;
 	skos:inScheme n0:;
