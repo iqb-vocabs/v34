@@ -21,12 +21,6 @@ n1:g6a
 	skos:notation "3";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich III"@de.
-n1:v3t
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "4";
-	skos:topConceptOf n0:;
-	skos:prefLabel "extra"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -34,5 +28,4 @@ n0:
 	skos:hasTopConcept
 		n1:z3p,
 		n1:g5t,
-		n1:g6a,
-		n1:v3t.
+		n1:g6a.
