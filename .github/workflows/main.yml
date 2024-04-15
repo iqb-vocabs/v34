@@ -1,0 +1,38 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - editor
+  pull_request:
+    branches:
+      - editor
+
+name: Build and deploy
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          node-version: 18
+      - run: |
+          npm ci
+          npm run run_id
+          npm run run_ttl
+      - name: Update ttl
+        run: |
+          git config --global user.email actions@github.com
+          git config --global user.name githubuser
+          git add .
+          git commit -m 'Updating ttl with Github Actions'
+          git push origin editor
+          git branch master
+          git checkout master
+          git push origin master --force
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
