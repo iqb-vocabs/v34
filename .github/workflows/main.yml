@@ -29,7 +29,7 @@ jobs:
           git config --global user.email actions@github.com
           git config --global user.name githubuser
           git add .
-          git commit -m 'Updating ttl with Github Actions'
+          git diff-index --quiet HEAD || git commit -m 'Updating ttl with Github Actions'
           git push origin editor
           git branch master
           git checkout master
