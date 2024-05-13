@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v34/se/>. 
 @prefix n1: <https://w3id.org/iqb/v34/se/>. 
 
@@ -1364,6 +1365,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Bildungsstandards Deutsch Sek I 2022 - Kompetenzbereiche des Faches Deutsch ESA"@de;
+	dc:title "Bildungsstandards Deutsch Sek I 2022 - Kompetenzbereiche des Faches Deutsch ESA"@de;
+	dc:description "Bildungsstandards Deutsch Sek I 2022 - Kompetenzbereiche des Faches Deutsch ESA"@de;
 	skos:hasTopConcept
 		n1:v6c,
 		n1:g4e,
