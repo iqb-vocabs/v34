@@ -7,21 +7,21 @@
 n1:z3p
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "1";
+	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Anforderungsbereich I"@de.
+	skos:prefLabel "1"@de.
 n1:g5t
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "2";
+	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Anforderungsbereich II"@de.
+	skos:prefLabel "2"@de.
 n1:g6a
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "3";
+	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Anforderungsbereich III"@de.
+	skos:prefLabel "3"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
