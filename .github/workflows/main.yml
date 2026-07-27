@@ -18,16 +18,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          node-version: 18
+
       - run: |
           npm ci
           npm run run_id
           npm run run_ttl
       - name: Update ttl
         run: |
-          git config --global user.email actions@github.com
-          git config --global user.name githubuser
+          git config --global user.email yan.ping.chen.lin@iqb.hu-berlin.com
+          git config --global user.name "Yan Ping Chen Lin"
           git add .
           git diff-index --quiet HEAD || git commit -m 'Updating ttl with Github Actions'
           git push origin editor

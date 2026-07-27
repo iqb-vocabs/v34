@@ -2,22 +2,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v34/a1/>. 
-@prefix n1: <https://w3id.org/iqb/v34/a1/>. 
 
-n1:z3p
-	 a skos:Concept;
+n0:z3p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "1"@de.
-n1:g5t
-	 a skos:Concept;
+n0:g5t
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "2"@de.
-n1:g6a
-	 a skos:Concept;
+n0:g6a
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -28,7 +27,8 @@ n0:
 	dct:title "Bildungsstandards Deutsch Sek I 2022 - Anforderungsbereiche"@de;
 	dc:title "Bildungsstandards Deutsch Sek I 2022 - Anforderungsbereiche"@de;
 	dc:description "Bildungsstandards Deutsch Sek I 2022 - Anforderungsbereiche"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:z3p,
-		n1:g5t,
-		n1:g6a.
+		n0:z3p,
+		n0:g5t,
+		n0:g6a.
